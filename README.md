@@ -1,7 +1,7 @@
-# BookRecommendationEngine
+# BookMathcer
 
 ## Descripción
-`BookRecommendationEngine` es un sistema de recomendación de libros que sugiere libros basados en un libro ingresado por el usuario. Este proyecto utiliza técnicas de filtrado basado en contenido para encontrar similitudes entre libros y proporcionar recomendaciones precisas.
+`BookMathcer` es un sistema de recomendación de libros que sugiere libros basados en un libro ingresado por el usuario. Este proyecto utiliza técnicas de filtrado basado en contenido para encontrar similitudes entre libros y proporcionar recomendaciones precisas.
 
 ## Tabla de Contenidos
 - [Descripción](#descripción)
@@ -17,8 +17,8 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/BookRecommendationEngine.git
-    cd BookRecommendationEngine
+    git clone https://github.com/ebo1703/BookMathcer.git
+    cd BookMathcer
     ```
 
 2. **Crea un entorno virtual e instala las dependencias:**
