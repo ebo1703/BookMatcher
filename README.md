@@ -1,7 +1,7 @@
 # BookMathcer
 
 ## Descripción
-`BookMathcer` es un sistema de recomendación de libros que sugiere libros basados en un libro ingresado por el usuario. Este proyecto utiliza técnicas de filtrado basado en contenido para encontrar similitudes entre libros y proporcionar recomendaciones precisas.
+`BookMathcer` es un sistema de recomendación de libros que sugiere 3 libros basados en un libro ingresado por el usuario.
 
 ## Tabla de Contenidos
 - [Descripción](#descripción)
@@ -9,8 +9,7 @@
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Futuras mejoras](#futuras-mejoras)
 
 ## Instalación
 Sigue estos pasos para instalar y ejecutar el proyecto localmente:
@@ -24,22 +23,25 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 2. **Crea un entorno virtual e instala las dependencias:**
     ```bash
     python -m venv venv
-    source venv/bin/activate   # En Windows usa `venv\Scripts\activate`
-    pip install -r requirements.txt
+    source venv/bin/activate   
+    pip install -r /src/requirements.txt
     ```
 
 3. **Asegúrate de tener los datos necesarios:**
-    - El archivo `books.csv` debe estar en el directorio `data/`. Este archivo debe contener información sobre los libros, incluyendo una columna `title` y una columna `description`.
+    - Los datos se descargaron del dataset: [text](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews/data) de Kaggle,
+    dado el peso de estos archivos no se suben al repositorio.
+    Si se descargan los archivos y se ubican en la carpeta '/Data' se pueden correr sin ningún problema los códigos
 
 ## Uso
 Para ejecutar el sistema de recomendación, sigue estos pasos:
 
 1. **Ejecuta el script principal:**
     ```bash
-    python recommend.py
+    python model.py
     ```
 
 2. **Ingresa el título de un libro cuando se te solicite:**
+    Tener en cuenta que
     ```text
     Ingrese el título de un libro: The Hobbit
     ```
@@ -76,4 +78,5 @@ BookMatcher/
 - **Pandas**
 - **Scikit-learn**
 
+## Futuras mejoras
 

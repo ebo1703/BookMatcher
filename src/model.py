@@ -1,0 +1,2 @@
+#Scrip para el modelo
+
