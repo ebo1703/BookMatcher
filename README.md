@@ -60,19 +60,18 @@ Para ejecutar el sistema de recomendación, sigue estos pasos:
 ## Estructura del Proyecto
 La estructura del proyecto es la siguiente:
 
-
-.
-├── Code/
-│ └── Notebooks/
-│   └── EDA.ipynb
-│   └── Pruebas_modelos.ipynb
-│ └──src/
-│   └── model.py
-│ └──requirements.txt
+```text
 ├── Data/
 ├── Docs/
 │ └── Bitacora.pdf
+│── src/
+│ └──  Notebooks/
+│   └──     EDA.ipynb
+│   └──     Pruebas_modelos.ipynb
+│ └──  model.py
+│ └──  requirements.txt
 ├── README.md 
+```
 
 
 
