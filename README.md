@@ -41,7 +41,10 @@ Para ejecutar el sistema de recomendación, sigue estos pasos:
     ```
 
 2. **Ingresa el título de un libro cuando se te solicite:**
-    Tener en cuenta que
+    Tener en cuenta que debe ser uno de los que estén en la base de datos.
+
+    Para futuras implementaciones se podría mostrar esta lista de libros en consola.
+
     ```text
     Ingrese el título de un libro: The Hobbit
     ```
@@ -58,13 +61,13 @@ Para ejecutar el sistema de recomendación, sigue estos pasos:
 La estructura del proyecto es la siguiente:
 
 
-BookMatcher/
+.
 ├── Code/
 │ └── Notebooks/
 │   └── EDA.ipynb
+│   └── Pruebas_modelos.ipynb
 │ └──src/
 │   └── model.py
-│   └── recommend.py
 │ └──requirements.txt
 ├── Data/
 ├── Docs/
@@ -80,3 +83,9 @@ BookMatcher/
 
 ## Futuras mejoras
 
+Para mejorar el sistema de recomendación se podría implementar diferentes modelos que además de las variables utilizadas 
+en esta versión, se realice un análisis de texto que se tiene en las reseñas, de esta manera encontrar sentimientos 
+similares en las diferentes reseñas y mejorar así la capacidad de recomendación.
+
+Por otro lado, podría hacerse un manejo más detallado de los datos vacíos, dado que en el dataset, se encuentran bastantes datos
+faltantes.
